@@ -10498,14 +10498,17 @@ header.header4 .menu.nav-effect.nav-menu {
     position: relative;
     opacity: 1;
     visibility: visible;
-    display: flex;
     justify-content: center;
     align-items: center;
-    border-right: 1px solid white;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
+@media screen and (min-width : 767px){
+    header.header4 .menu.nav-effect.nav-menu {
+        display: flex;
+        border-right: 1px solid white;
+    }
+  }
 header.header4 .menu.nav-effect.nav-menu.hidden {
     top: -15px;
     display: block !important;
