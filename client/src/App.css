@@ -30,3 +30,9 @@
     transform: rotate(360deg);
   }
 }
+html {
+  scroll-behavior: smooth;
+}
+/* .row{
+  display: block !important;
+} */

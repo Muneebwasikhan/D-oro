@@ -8,8 +8,15 @@
 .slider-text h1{
     font-size: 2.9375rem;
     line-height: 3.25rem;
+    font-weight: 300;
 }
 
+.slider-text h1 b{
+    font-weight: 800;
+}
+.slider-cont{
+    padding-top: 50px;
+}
 .slider-text button{
     cursor: pointer;
     padding: 0.8125rem 1.625rem;
@@ -20,6 +27,9 @@
     letter-spacing: 2px;
     line-height: 1;
     margin: 5px;
+    background-color: transparent;
+    border: 1px solid #009ca6;
+    color: #009ca6;
 }
 
 .slider-grid2-box{
@@ -27,13 +37,21 @@
     height: 180px;
     border-radius: 5px;
     width: 80%;
+    margin: 0 auto;
     box-shadow: 0px 0px 29px -8px black;
 }
-
+.onboarding-preview-content{
+    margin-top: 190px;
+}
 .onboarding-preview-content img{
     width: 80%;
     margin-left: 10%;
     margin-top: -25%;
+}
+.onboarding-preview-content p{
+    width: 90%;
+    padding-left: 10%;
+    font-size: 13px;
 }
 
 .secondary-button{

@@ -7,8 +7,9 @@ import Navbar from '../Navbar/Navbar';
 const Routes = () => (
     <Router>
         <div>
-            <Navbar />
+            {/* <Navbar /> */}
             <Route exact path="/" component={Screens.Home} />
+            <Route exact path="/homeChk" component={Screens.HomeChk} />
         </div>
     </Router>
 );

@@ -1,0 +1,27 @@
+.gradientBg{
+    /* background: linear-gradient(45deg,#ffb300, #fdd902, #e38d00); */
+    background-image: url("../../../Assets/slideScrBg.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-heigth: 766px){
+    .cryptic_countdown{
+        margin-top: -5px;
+    }
+}
+.flip-clock-divider.seconds .flip-clock-label {
+    right: -37px !important;
+}
+.flip-clock-divider .flip-clock-label {
+    /* top: 7.5em !important;
+    right: -55px !important; */
+    /* color: #252525 !important; */
+}
+.cryptic_countdown h1{
+    font-weight: 900;
+}
+
+.cryptic_countdown h3{
+    font-weight: 900;
+}
